@@ -1,0 +1,13 @@
+@import './reset.scss';
+@import './vars.scss';
+@import './config';
+@import './blocks/all-blocks';
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+}

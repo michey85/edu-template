@@ -1,0 +1,28 @@
+.alert {
+  font-weight: bold;
+  line-height: 2;
+  color: $white;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-color: $green;
+  border-radius: 2.4rem;
+  display: table-cell;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.alert_science {
+  background-color: $blue;
+}
+.alert_tech {
+  background-color: $darkBlue;
+}
+.alert_design {
+  background-color: $rose;
+}
+.alert_medicine {
+  background-color: $violetDark;
+}
+.alert_food {
+  background-color: $violetLight;
+}

@@ -1,0 +1,101 @@
+.subject {
+  background-color: $gray2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+
+  max-width: 370px;
+
+  .alert {
+    position: absolute;
+    top: 3.6rem;
+    left: 3.2rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 304px;
+    border-radius: 2rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__content {
+    padding: 2.3rem 3.2rem 3.2rem;
+  }
+
+  &__author {
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: $black;
+    padding: 0.3rem 0 0.6rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__lessons {
+    font-size: 1.8rem;
+    color: $gray5;
+    line-height: 1.78;
+  }
+}
+
+.expert {
+  background-color: $gray2;
+  border-radius: 2rem;
+  max-width: 270px;
+  margin-left: 52px;
+  margin-top: 112px;
+
+  &__photo {
+    position: relative;
+    top: -112px;
+    left: -52px;
+    margin-bottom: -112px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 27rem;
+    height: 27rem;
+    background-color: $violet;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__about {
+    padding: 2.5rem 3.2rem 4.8rem;
+  }
+
+  &__prof {
+    color: $gray5;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    padding: 0.3rem 0 2.2rem;
+    flex-grow: 1;
+  }
+
+  &__social {
+    display: flex;
+
+    .button {
+      margin-right: 0.8rem;
+      color: $violet;
+    }
+  }
+}
